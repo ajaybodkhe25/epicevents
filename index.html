@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Organisers | EPIC EVENTS </title>
+
+  <!-- ✅ CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ✅ Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- ✅ Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+
+<body>
+<header class="header">
+  <a href="#" class="logo"><span>EPIC</span>EVENTS</a>
+
+  <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#gallery">gallery</a>
+    <a href="#package">package</a>
+    <a href="#service">services</a>
+    <a href="#review">reviews</a>
+    <a href="#contact">contact</a>
+    <a href="#about">about</a>
+  </nav>
+
+  <a href="login.html" class="btn" id="openLogin">Register Now</a>
+  <div id="menu-bars" class="fas fa-bars"></div>
+</header>
+<section class="login" id="login" style="display: none;">
+  <form class="login-form" id="loginForm">
+    <h2>Login</h2>
+
+    <input type="text" placeholder="Username" required>
+    <input type="password" placeholder="Password" required>
+
+    <input type="submit" value="Login" class="btn">
+
+    <p>Don't have an account? <a href="#" id="openSignup">Register</a></p>
+  </form>
+</section>
+<section class="signup" id="signup" style="display: none;">
+  <form class="signup-form" id="signupForm">
+    <h2>Sign Up</h2>
+
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <input type="password" placeholder="Confirm Password" required>
+
+    <input type="submit" value="Create Account" class="btn">
+
+    <p>Already have an account? <a href="#" id="backToLogin">Login</a></p>
+  </form>
+</section>
+
+
+<section class="home" id="home">
+  <div class="content">
+    <h3>
+      <i class="fas fa-bullhorn" ></i>
+      <span> upcoming</span> events</span>
+    </h3>
+    
+  </div>
+
+  <div class="swiper home-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="events.html">
+          <img decoding="async" src="https://i.pinimg.com/736x/85/60/15/8560151b10687887743a5612b62cdfee.jpg" alt="" />
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="events.html">
+        <img decoding="async" src="https://i.pinimg.com/736x/cd/c9/e6/cdc9e6a211508dd085aa4e41c01b807a.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <a href="events.html">
+        <img decoding="async" src="https://i.pinimg.com/736x/52/0f/d0/520fd082f014ffaab192d2977fb81615.jpg" alt="" />
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="events.html">
+        <img decoding="async" src="https://i.pinimg.com/736x/f4/4c/22/f44c2232a08bd170cf95ab62bea1028e.jpg" alt="" />
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="events.html">
+        <img decoding="async" src="https://i.pinimg.com/1200x/c9/e1/2f/c9e12f0d766470c55ec8db6ce718f82e.jpg" alt="" />
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="events.html">
+        <img decoding="async" src="https://i.pinimg.com/736x/8c/d7/d0/8cd7d0a8fba3bb3c31535b938b2bd92e.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gallery" id="gallery">
+  <h1 class="heading">our <span>gallery</span></h1>
+
+  <div class="box-container">
+    <div class="box">
+      <img decoding="async" src="https://i.pinimg.com/736x/60/10/80/6010807d1bb0f7f1052bde33f62c1a3a.jpg" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img decoding="async" src="https://images.unsplash.com/photo-1733322992706-1210ca79f4df?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img decoding="async" src="https://images.unsplash.com/photo-1659522761084-79196b64abe4?q=80&w=770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img decoding="async" src="https://images.unsplash.com/photo-1519699391638-2c1858ed0a8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb24lMjBzaG93JTIwcm9uYWxkb3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img decoding="async" src="https://i.pinimg.com/1200x/6c/a7/f1/6ca7f132e00f2795032d8d14699c522f.jpg" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img decoding="async" src="https://i.pinimg.com/736x/67/31/0a/67310a08a94fa5f4c3c118a38a6c04bf.jpg" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img decoding="async" src="https://i.pinimg.com/736x/37/d0/0f/37d00ff31549a0fca2b175235a9c2bdf.jpg" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img decoding="async" src="https://i.pinimg.com/736x/94/3b/e1/943be149f8afcb7f06e8935e74ee71c0.jpg" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img decoding="async" src="https://i.pinimg.com/736x/68/22/c7/6822c7e267bd5e999266ea21a7b5fdb3.jpg" alt="" />
+      <h3 class="title">best events</h3>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-share"></a>
+        <a href="#" class="fas fa-eye view-btn"></a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="image-popup" id="imagePopup">
+  <span class="close-btn" id="closePopup">&times;</span>
+  <img id="popupImg" src="" alt="">
+</div>
+
+
+
+<section class="service" id="service">
+  <h1 class="heading">our <span>services</span></h1>
+
+  <div class="box-container">
+    <div class="box">
+    <i class="fas fa-user-friends"></i>
+    <h3>model management</h3>
+    <p>We handle model registration, auditions, and coordination for the event.</p>
+    </div>
+
+    <div class="box">
+    <i class="fas fa-tshirt"></i>
+    <h3>designer coordination</h3>
+    <p>We manage designers and organize collections for runway showcases.</p>
+    </div>
+
+    <div class="box">
+    <i class="fas fa-map-marked-alt"></i>
+    <h3>venue & stage setup</h3>
+    <p>Complete arrangement of venue, ramp design, lighting, and seating.</p>
+    </div>
+
+    <div class="box">
+    <i class="fas fa-magic"></i>
+    <h3>makeup & styling</h3>
+    <p>Expert makeup artists and stylists for models and performers.</p>
+    </div>
+
+    <div class="box">
+    <i class="fas fa-ticket-alt"></i>
+    <h3>ticket booking & registration</h3>
+    <p>Book your tickets easily.</p>
+    </div>
+
+    
+  </div>
+</section>
+
+
+
+
+<section class="about" id="about">
+  <h1 class="heading"><span>about</span> us</h1>
+
+  <div class="row">
+    <div class="image">
+      <img decoding="async" src="https://epic-events.lu/wp-content/uploads/2022/04/logo-epic-events-1.png" alt="" />
+    </div>
+
+    <div class="content">
+      <h3>bringing fashion events to life with perfection</h3>
+      <p>
+We specialize in organizing professional fashion shows and event experiences that leave a lasting impression. From model management to stage design, our team ensures every detail is handled with creativity and precision.
+</p>
+      <p>
+Our platform connects designers, models, and audiences in one place, making event coordination seamless and efficient. We aim to deliver stylish, well-managed, and memorable fashion events for every client.
+</p>
+      <a href="#contact" class="btn"> Reach Us </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <section class="package" id="package">
+    <h1 class="heading">our <span>packages</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <h3 class="title">basic</h3>
+        <h3 class="amount">$879.00</h3>
+        <ul>
+          <li><i class="fas fa-check"></i>full services</li>
+          <li><i class="fas fa-check"></i> decorations</li>
+          <li><i class="fas fa-check"></i> music and photos</li>
+          <li><i class="fas fa-check"></i> food and drinks</li>
+          <li><i class="fas fa-check"></i> invitation card</li>
+        </ul>
+        <a href="#" class="btn">check out</a>
+      </div>
+
+      <div class="box">
+        <h3 class="title">prime</h3>
+        <h3 class="amount">$799.00</h3>
+        <ul>
+          <li><i class="fas fa-check"></i>full services</li>
+          <li><i class="fas fa-check"></i> decorations</li>
+          <li><i class="fas fa-check"></i> music and photos</li>
+          <li><i class="fas fa-check"></i> food and drinks</li>
+          <li><i class="fas fa-check"></i> invitation card</li>
+        </ul>
+        <a href="#" class="btn">check out</a>
+      </div>
+
+      <div class="box">
+        <h3 class="title">luxury</h3>
+        <h3 class="amount">$379.00</h3>
+        <ul>
+          <li><i class="fas fa-check"></i>full services</li>
+          <li><i class="fas fa-check"></i> decorations</li>
+          <li><i class="fas fa-check"></i> music and photos</li>
+          <li><i class="fas fa-check"></i> food and drinks</li>
+          <li><i class="fas fa-check"></i> invitation card</li>
+        </ul>
+        <a href="#" class="btn">check out</a>
+      </div>
+
+      <div class="box">
+        <h3 class="title">ultra</h3>
+        <h3 class="amount">$920.00</h3>
+        <ul>
+          <li><i class="fas fa-check"></i>full services</li>
+          <li><i class="fas fa-check"></i> decorations</li>
+          <li><i class="fas fa-check"></i> music and photos</li>
+          <li><i class="fas fa-check"></i> food and drinks</li>
+          <li><i class="fas fa-check"></i> invitation card</li>
+        </ul>
+        <a href="#" class="btn">check out</a>
+      </div>
+    </div>
+</section>
+
+
+<section class="review" id="review">
+  <h1 class="heading">client's <span>review</span></h1>
+
+  <div class="swiper review-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide box">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img decoding="async" src="https://media.licdn.com/dms/image/v2/D5603AQGZnyMCO90lGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714816001968?e=1776902400&v=beta&t=zX2kSS9go5UmK6Cm7ApXLlvnNm21bmBCy_x22FE9KOc" alt="Balaji Alli" />
+          <div class="user-info">
+            <h3>Balaji Alli</h3>
+            <span>fashion model</span>
+          </div>
+        </div>
+       <p>
+         The event was perfectly organized and truly professional. From model coordination to stage setup, everything was flawless. Highly recommended!
+      </p>
+      </div>
+
+      <div class="swiper-slide box">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img decoding="async" src="https://media.licdn.com/dms/image/v2/D4D03AQFSrJI7V-wmWQ/profile-displayphoto-scale_200_200/B4DZqv3X99KEAY-/0/1763887168096?e=1776902400&v=beta&t=_2zp-GnsuloY819Xfhe1CRrDlLBaGIa8xjgDXdnWKbc" alt="Raghav" />
+          <div class="user-info">
+            <h3>Raghav</h3>
+            <span>fashion designer</span>
+          </div>
+        </div>
+        <p>
+        As a designer, I had an amazing experience showcasing my collection. The team handled everything smoothly and gave great exposure.
+       </p>
+      </div>
+
+      <div class="swiper-slide box">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img decoding="async" src="https://media.licdn.com/dms/image/v2/D4D03AQEi71wcXtqzUw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714324413083?e=1776902400&v=beta&t=HEGuDQV44KbCGS0SDeYO_FVWqm9NbbVKrJagFZU9-CI" alt="iyush Bodele" />
+          <div class="user-info">
+            <h3>Piyush Bodele</h3>
+            <span>event guest</span>
+          </div>
+        </div>
+        <p>
+        The atmosphere, lighting, and performances were outstanding. It felt like a premium fashion show experience. Loved every moment!
+        </p>
+      </div>
+
+      <div class="swiper-slide box">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+          <img decoding="async" src="https://media.licdn.com/dms/image/v2/D5603AQFWZSmIgmyqbA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693153361919?e=1776902400&v=beta&t=4UHcqMfrB7-ADiqjJwJ02Wnlkvz-UG81pC6NrRGci8A" alt="Abhishek Nimase" />
+          <div class="user-info">
+            <h3>Abhishek Nimase</h3>
+            <span>event sponsor</span>
+          </div>
+        </div>
+        <p>
+        Great coordination and management throughout the event. The team ensured that everything ran on time without any issues and there was no problem while the event .
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact" id="contact">
+  <h1 class="heading"><span>contact</span> us</h1>
+
+  <form>
+    <div class="inputBox">
+      <input type="text" placeholder="name">
+      <input type="email" placeholder="email">
+    </div>
+
+    <textarea placeholder="message"></textarea>
+    <input type="submit" value="send message" class="btn">
+  </form>
+</section>
+
+
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>branches</h3>
+      <a href="#"> <i class="fas fa-map-marker-alt"></i> bangalore </a>
+      <a href="#"> <i class="fas fa-map-marker-alt"></i> hyderabad </a>
+      <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi </a>
+      <a href="#"> <i class="fas fa-map-marker-alt"></i> kolkata </a>
+      <a href="#"> <i class="fas fa-map-marker-alt"></i> chennai </a>
+    </div>
+
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> review </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+    </div>
+
+    <div class="box">
+      <h3>contact info</h3>
+      <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+      <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+      <a href="#"> <i class="fas fa-envelope"></i> kanasu@gmail.com </a>
+      <a href="#"> <i class="fas fa-envelope"></i> kanasuind@gmail.com </a>
+      <a href="#">
+        <i class="fas fa-map-marker-alt"></i> bangalore, india - 560054
+      </a>
+    </div>
+
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+      <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+      <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+      <a href="#"> <i class="fab fa-linkedin-in"></i> linkedin </a>
+    </div>
+  </div>
+
+  <div class="credit">
+    created by <span>epic</span>Events</span> | all rights reserved®
+  </div>
+</section>
+
+
+<div class="theme-toggler">
+  <div class="toggle-btn">
+    <i class="fas fa-cog"></i>
+  </div>
+
+  <h3>choose color</h3>
+
+  <div class="buttons">
+    <div class="theme-btn" style="background: #ccff33"></div>
+    <div class="theme-btn" style="background: #d35400"></div>
+    <div class="theme-btn" style="background: #f39c12"></div>
+    <div class="theme-btn" style="background: #1abc9c"></div>
+    <div class="theme-btn" style="background: #3498db"></div>
+    <div class="theme-btn" style="background: #9b59b6"></div>
+  </div>
+</div>
+<!-- ✅ Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- ✅ Your JS -->
+<script src="script.js"></script>
+<script src="events.js"></script>
+</body>
+</html>
